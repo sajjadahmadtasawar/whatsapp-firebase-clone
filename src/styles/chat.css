@@ -1,0 +1,100 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.chat__header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.chat__headerInfo > h3 {
+  font-size: 17px;
+}
+
+.chat__headerRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat__headerInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 13px;
+}
+
+.chat__headerInfo > p {
+  color: grey;
+}
+
+.chat__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: url('https://res.cloudinary.com/practicaldev/image/fetch/s--WAKqnINn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/tw0nawnvo0zpgm5nx4fp.png');
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: auto;
+}
+
+.chat__message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.chat__name {
+  position: absolute;
+  font-size: xx-small;
+  font-weight: 700;
+  top: -15px;
+}
+
+.chat__timestamp {
+  font-size: xx-small;
+  margin-left: 10px;
+}
+
+.chat__receiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
+.chat__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  border-top: 1px solid lightgrey;
+}
+
+.chat__footer > form {
+  display: flex;
+  flex: 1;
+}
+
+.chat__footer > form > input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.chat__footer > form > button {
+  display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+  color: grey;
+  padding: 7px;
+}
